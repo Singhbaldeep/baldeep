@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Youtube</name>
+   <name>Instagram</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b9ed01f2-83be-4d41-b69b-7f14fd9e868f</testCaseGuid>
+   <testCaseGuid>8bfc697a-265c-4ea8-9edf-1e068b2d6c4f</testCaseGuid>
 </TestCaseEntity>

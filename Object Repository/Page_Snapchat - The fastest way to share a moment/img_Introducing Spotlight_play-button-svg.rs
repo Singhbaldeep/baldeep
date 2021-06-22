@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_sidhu moose wala new song</name>
+   <name>img_Introducing Spotlight_play-button-svg</name>
    <tag></tag>
-   <elementGuidId>baf1d04b-5c61-4533-9c7f-55dd274999a0</elementGuidId>
+   <elementGuidId>0337ec15-b55f-4ea6-8de1-4b6b71e6131d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#sbse1 > div.sbqs_c</value>
+         <value>#play-button-svg</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='sbse1']/div[2]</value>
+         <value>//img[@id='play-button-svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,48 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>play-button-svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sbqs_c</value>
+      <value>spotlight-play-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>sidhu moose wala new song</value>
+      <value>/home/play-button.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>play button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sbse1&quot;)/div[@class=&quot;sbqs_c&quot;]</value>
+      <value>id(&quot;play-button-svg&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='sbse1']/div[2]</value>
+      <value>//img[@id='play-button-svg']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='emen'])[1]/following::div[3]</value>
+      <value>//div[@id='takeover']/div/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='play button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div/div[2]</value>
+      <value>//div/img</value>
    </webElementXpaths>
 </WebElementEntity>

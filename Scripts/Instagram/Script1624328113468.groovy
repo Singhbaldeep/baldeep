@@ -19,15 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.youtube.com/')
+WebUI.navigateToUrl('https://www.snapchat.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_YouTube/input_Skip navigation_search_query'), 'sid')
+WebUI.click(findTestObject('Object Repository/Page_Snapchat - The fastest way to share a moment/img_Introducing Spotlight_play-button-svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_YouTube/div_sidhu moose wala new song'))
+WebUI.closeBrowser()
 
-WebUI.setText(findTestObject('Object Repository/Page_YouTube/input_Skip navigation_search_query'), 'sid')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_sidhu moose wala new song - YouTube/yt-formatted-string_Brown Shortie (Official_f6cf6c'))
+WebUI.navigateToUrl('https://www.instagram.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Instagram/input_Phone number, username, or email_username'), 'baldeepsingh')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Instagram/input_Password_password'), '2i3hNY7+MFvlOA4dA3BFfg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Instagram/div_Log In'))
 
 WebUI.closeBrowser()
 
